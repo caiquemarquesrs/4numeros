@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#8BC34A"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Aula 10 - Treinando Layouts"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtNumero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o 1º número:"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edtNumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o 2º número:"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edtNumero3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o 3º número:"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edtNumero4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o 4º número:"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnExecutar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXECUTAR"
+        android:background="#4CAF50"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
